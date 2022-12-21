@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dushi | Log In</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+
+    
+  
+    <header style="display: flex; justify-content:space-between; background-color: #0000ff; padding: 20px;">
+        <div id="tit" style="color: orangered; background-color: #0000ff;">Watch <span style="background-color: orangered; color:blue; margin-left: -5px; border-radius: 10px; padding-left: 10px; padding-right: 10px;">it</span></div>
+        <div id="here" style="background-color: #0000ff; color: #fff; font-size: 30px; margin-left: -200px;">Get all the latest news on time</div>
+        <a href="#" id="help" style="background-color:orangered; width: 70px; height: 35px; text-decoration: none;  color:#0000ff; font-size: 30px; margin-right: 70px;">Help</a>
+        
+    </header>
+    <div id="succes" style="text-align: center; visibility: hidden;">
+        <h1>You succesfull log in your account</h1><br>
+        <h1> Click the button below to continue </h1><br>
+        <button id="enter"><a href="raba.html">Continue</a></button>
+
+    </div>
+    <div id="body">
+    <div id="application">
+        <div id="welcome">
+          Welcome at Watchit
+        </div>
+        <span id="guide">
+         Log in your account or create an account if you are new
+        </span>
+        
+
+
+    </div>
+    <div id="question">
+        if you have any questions or doubts or you need any help,<br> Don't hesitate to contact us on <a href="mailto:dushisoft@gmail.com">watchit@gmail.com</a>
+    </div>
+    <div id="find-form">
+        <div id="log-form">
+            <h1 id="log-name" style="margin-bottom: 0px;">Log In</h1>
+            <br><h4 id="incorrect" style="display: none;">User name or password incorrect
+                <br>Retry please
+            </h4>
+            <label for="user-name"> User Name or Email Adress</label>
+            <input type="email" id="log-user-name" placeholder="Enter your user name here..." required>
+            <h5 id="log-invalid-user-name" style="visibility: hidden;">Invalid user name</h5>
+
+            <label for="password">Password</label>
+            <input type="password" id="log-password" placeholder="Enter your password here...">
+            <h5 id="log-invalid-password" style="visibility: hidden;">Invalid password</h5>
+            <div id="showMe" style="display: flex;"><input type="checkbox" name="show" id="show" style="margin: 0; width: 19px; border-radius: 50%;"><label for="show">Show password</label> </div>
+
+            <a href="#" id="forgot-password">Forgot password or user name ?</a>
+            <button id="log-btn">Log in</button>
+            <br><br>
+            <br>
+            <div id="create">
+            <span id="new" style="font-size: 20px;">New here?</span><button id="register" style="margin-left: 10px;">Register</button>
+            </div>
+
+        </div>
+        <div id="sign-form" style="visibility: hidden;">
+            <h1 id="log-name"  >Sign In</h1>
+
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" placeholder="Enter your user name here...">
+            <h5 id="invalid-full-name" style="visibility: hidden;">Invalid name</h5>
+
+            <label for="user-name"> Email Adress</label>
+            <input type="email" id="sign-user-name" placeholder="Enter your user name here...">
+            <h5 id="sign-invalid-user-name" style="visibility: hidden;">Invalid User name</h5>
+            <label for="password">Password</label>
+            <input type="password" id="sign-password" placeholder="Enter your password here...">
+            <h5 id="sign-invalid-password" style="visibility: hidden;">Invalid Password</h5>
+            
+
+            <label for="password1">Password Confirmation</label>
+            <input type="text" id="sign-password1" placeholder="Enter your password again...">
+            <h5 id="sign-invalid-password1" style="visibility: hidden;">Password must match</h5>
+
+            
+            <button id="sign-btn">Sign in</button>
+            <br><br><br>
+            <span id="new">Have already an account ?</span><a href="#" id="assignement">Log in your account</a>
+
+        </div>
+    </div>
+    </div>  
+
+
+
+  
+  
+
+</html>
