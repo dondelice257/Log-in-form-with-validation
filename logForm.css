@@ -18,7 +18,7 @@
     
 }
 #header{
-    display:grid;
+    display:flex;
     margin-bottom: 50px;
     background-color: white;
     box-shadow: 2px 4px 8px gray;
